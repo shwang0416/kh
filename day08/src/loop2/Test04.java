@@ -6,7 +6,7 @@ public class Test04 {
 /*
  * 사용자에게 홀수를 입력받는 프로그램을 구현.
  * 짝수를 입력받으면 종료.
- * 입력받은 숫자를 
+ * 입력받은 짝수의 합 출력하기.
  */
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
