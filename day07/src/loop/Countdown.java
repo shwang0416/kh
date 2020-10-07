@@ -1,17 +1,18 @@
-package day07;
+package loop;
 
 import java.util.*;
 public class Countdown {
 
 	public static void main(String[] args) throws InterruptedException {
+		//ìž…ë ¥í•œ ìˆ«ìžë¶€í„° 0ê¹Œì§€ ì¹´ìš´íŠ¸ë‹¤ìš´í•˜ê¸°!
 		Scanner scan = new Scanner(System.in);
 		
-		System.out.println("¼ýÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä :");
+		System.out.println("ì¹´ìš´íŠ¸ë‹¤ìš´ :");
 		int num = scan.nextInt();
 		
 		for(;num >= 0;num--) {
 			System.out.println(num);
-			Thread.sleep(1000L); //1000 ¹Ð¸®ÃÊ == 1ÃÊ ÈÞ½Ä
+			Thread.sleep(500L); //1000 ë°€ë¦¬ì´ˆ(L) == 1ì´ˆ
 		}
 		
 	}

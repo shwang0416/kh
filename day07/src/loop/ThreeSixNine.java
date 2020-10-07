@@ -10,7 +10,7 @@ public class ThreeSixNine {
 				 num1, num2, num3은  0~9사이의 자연수
 		*/ 
 		final int ten = 10;
-		int input = 369;
+		int input = 99;
 		
 		int num1 = 3;
 		int num2 = 6;
