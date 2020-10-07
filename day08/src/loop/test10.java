@@ -12,7 +12,7 @@ public class test10 {
 		for(int day = 1; day <= days; day++) {
 			deposit += once;
 		}
-		System.out.println(days+"일 동안 모은 돈 "+deposit+" 원");
+		System.out.println(days+"일 동안 모은 돈 "+deposit+"원");
 	}
 
 }
