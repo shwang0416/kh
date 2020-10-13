@@ -10,34 +10,16 @@ public class Test {
 		
 		a.name = "이름";
 		a.sports = "종목";
+		
+		b.info("김연아","피겨스케이팅",2,0,1);
+		c.info("이상화", "스피드스케이팅",1,2,1);
+		d.info("윤형빈", "스켈레톤", 1,0,1);
 
-		b.name= "김연아";
-		b.sports ="피겨스케이팅";
-		b.gold= 2;
-		b.silver = 0;
-		b.copper = 1;
+		b.print();
+		c.print();
+		d.print();
 		
-		c.name= "이상화";
-		c.sports ="스피드스케이팅";
-		c.gold= 1;
-		c.silver = 2;
-		c.copper = 1;
-		
-		d.name= "윤성빈";
-		d.sports ="스켈레톤";
-		d.gold= 1;
-		d.silver = 0;
-		d.copper = 1;
-		
-		System.out.println("|	"+a.name+"	|	"+a.sports+"	|	금메달	|	은메달	|	동메달	|");
-		System.out.println("|	---	|	---	|	---	|	---	|	---	|");
-		System.out.println(print(b));
-		System.out.println(print(c));
-		System.out.println(print(d));
 	}
 	
-	public static String print (winterSportsScore p) {
-		return "|	"+p.name+"	|	"+p.sports+ "	|	" + p.gold +"	|	"+ p.silver +"	|	"+p.copper;
-	}
-
+	
 }
