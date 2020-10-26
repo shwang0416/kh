@@ -13,13 +13,20 @@ public class Test04 {
 	public static void main(String[] args) {
 		
 		Calendar c = Calendar.getInstance();
-		c.set(2020, 11, 25);
-		c.add(Calendar.DATE, -100);
+		
+		c.set(2020, 11, 25); 
+		// ※ MONTH를 설정할 때는 -1
+		
+		c.add(Calendar.DATE, -99); 
+		// ※ d-99 98 ... d-0까지 총 100일임.
 		
 		
 		//출력
-		Date d= c.getTime();
+		Date d = c.getTime();
+		//Date로 변환
 		SimpleDateFormat f= new SimpleDateFormat("yyyy-MM-dd");
+		//SimpleDateFormat 객체 생성
 		System.out.println(f.format(d));
+		//format객체 f형으로 d의 내용 출력
 	}
 }
