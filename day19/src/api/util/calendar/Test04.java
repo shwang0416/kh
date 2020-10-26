@@ -16,6 +16,7 @@ public class Test04 {
 		
 		c.set(2020, 11, 25); 
 		// ※ MONTH를 설정할 때는 -1
+		// Calendar, Date등 옛날에 만들어진 클래스에선 0~11을 개월로 쓰고 12를 전체 개월수를 나타내는 상수로 썼다.
 		
 		c.add(Calendar.DATE, -99); 
 		// ※ d-99 98 ... d-0까지 총 100일임.
