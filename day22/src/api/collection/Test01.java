@@ -24,7 +24,7 @@ public class Test01 {
 		
 		//데이터 추가
 		map.put("a", 10);
-		map.put("b", 10);
+		map.put("b", null);
 		
 		//데이터 수정
 		map.put("a", 20); //중복 key 다른 value
@@ -41,5 +41,17 @@ public class Test01 {
 		//데이터 삭제
 		map.remove("b"); //key or key,value로 삭제 (구분을 위함)
 		System.out.println(map);
+		
+		//데이터 추출 : key로 value를 불러오는 것만 가능 
+		//(당연. 아이디->비번 찾기는 되지만 비번 -> 아이디는 못 찾음)
+		
+		//※ value를 int형태로 사용하면 위험!
+		// => int는 null을 저장할 수 없으나 Integer는 null을 저장할 수 있기 때문
+		// (null은 참조변수가 아무것도 안가리키고 있다는 뜻이다.)
+//		int value = map.get("b"); //만약 b의 value가 null이라면 에러 발생
+		Integer value = map.get("b"); //
+		System.out.println(value);
+		
+	
 	}
 }
