@@ -24,7 +24,7 @@ public class Test02 {
 			System.out.println("유저 가입 프로그램입니다. "
 					+ "계속하시겠습니까? 계속하려면 y, 종료하려면 n 입력");
 			stop = scan.nextLine();
-			if(stop == "n") {
+			if("n".equals(stop)) {
 				System.out.println("프로그램 종료");
 				break;
 			}
