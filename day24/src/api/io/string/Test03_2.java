@@ -8,7 +8,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-public class Test03_1 {
+public class Test03_2 {
 	//목표: Writer 를 이용해서 문자열을 변환 없이 출력
 	
 	public static void main(String[] args) throws IOException {
