@@ -19,7 +19,6 @@ public class Test05 {
 //		while(sc.hasNextLine()) {
 //			System.out.println(sc.nextLine());
 //		}
-		
 		sc.close();
 	}
 }
