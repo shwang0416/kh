@@ -1,5 +1,5 @@
 package cardgame;
-
+//동물의 숲 카드 게임
 import java.awt.BorderLayout;
 import java.awt.Font;
 import java.awt.GridLayout;

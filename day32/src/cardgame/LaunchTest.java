@@ -1,5 +1,5 @@
 package cardgame;
-
+//동물의 숲 카드 게임
 import javax.swing.UIManager;
 import javax.swing.UnsupportedLookAndFeelException;
 

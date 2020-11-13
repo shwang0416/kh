@@ -17,7 +17,7 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
-
+//동물의 숲 카드 게임
 //나만의 창 클래스 템플릿(기본폼)
 class CardDeck extends JPanel{
 	
