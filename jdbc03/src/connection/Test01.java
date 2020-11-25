@@ -16,7 +16,8 @@ public class Test01 {
 //			정적 SQL 처리 방식
 //			=> 구문과 값을 있는 그대로 합쳐서 전송
 //			=> 특수문자 오류 발생 가능, SQL 인젝션 공격 가능(보안 문제 발생 가능성)
-		String sql = "insert into person values(person_seq.nextval, '자바왕', 100, 99, '여자', sysdate)";
+		String name = "자바왕!";
+		String sql = "insert into person values(person_seq.nextval,'"+name+"', 100, 99, '여자', sysdate)";
 		PreparedStatement ps = con.prepareStatement(sql); //전송도구
 		ps.execute();
 		System.out.println("보내기성공!");
